@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Gold coast Co-Working Space</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<header>
+		<h1>Gold Coast Co-Working</h1>
+	</header>
+	<nav>
+		<ul>
+			<li class="selected"><a href="/">Home</a></li>
+			<li><a href="javascript:alert('Page will include info/address/bank details etc');">Get involved</a></li>
+		</ul>
+	</nav>
+	<section id="intro"></section>
+	<div id="content">
+				<article class="stream">
+					<header><br/>
+						<b>The Gold Coast Co-Working initiative has been set up as a hub for Gold Coast IT professionals to work and collaborate. </b>
+					</header>
+					<header>
+						<h2>Companies involved include:</h2>
+					</header>
+						<br />
+					<div class="companies">
+					
+					<!-- this is a sample search script from twitter.com/goodies . feel free to put your own stream scripts here -->
+
+		<div class="twtr-tweet-wrap">
+			<div class="twtr-avatar">				
+					<a href="http://www.classmarker.com/"><img src="http://img.classmarker.com/a/classmarker.gif" height="27" alt="Hosted quiz maker"></a>	
+			</div>
+			<div class="twtr-tweet-text">
+				<p>The Quiz Maker for Professionals<br/>
+					<a href="http://www.classmarker.com/">ClassMarker</a>			</p>
+			</div>
+			<hr/>
+		</div>
+		
+		<div class="twtr-tweet-wrap">
+			<div class="twtr-avatar">
+					<a href="http://refactor.com.au/"><img src="http://refactor.com.au/sites/default/files/logo.png" height="27" alt="Expert software development"></a>	
+			</div>
+			<div class="twtr-tweet-text">
+				<p>Expert software development<br/>
+					<a href="http://refactor.com.au/">Refactor</a>	</p>
+			</div>
+			<hr/>
+		</div>
+		
+		<div class="twtr-tweet-wrap">
+			<div class="twtr-avatar">				
+					<a href="http://glanton.com/"><img src="http://glanton.com/Portals/0/Glanton%20Corporate%20Web%20Services%202_cropped.png" height="27" alt="Corporate web services"></a>
+								
+			</div>
+			<div class="twtr-tweet-text">
+				<p>The Quiz Maker for Professionals<br/>
+					<a href="http://glanton.com/">Glanton</a>	</p>
+			</div>
+		</div>
+		
+		
+					</div>
+				</article>
+				
+		</div>
+		
+		<aside>
+			<section>
+				<ul>
+					<li><a href="http://www.linkedin.com/groups?gid=4580336"><img src="images/socialicons/linkedin.png" alt="linkedin" title="linkedin" /></a></li>
+					<!--<li><a href="#"><img src="images/socialicons/twitter.png" alt="twitter" title="twitter" /></a></li>
+					<li><a href="#"><img src="images/socialicons/facebook.png" alt="facebook" title="facebook" /></a></li>
+					<li><a href="#"><img src="images/socialicons/friendfeed.png" alt="friendfeed" title="friendfeed" /></a></li>
+					<li><a href="#"><img src="images/socialicons/stumbleupon.png" alt="stumbleupon" title="stumbleupon" /></a></li>
+					<li><a href="#"><img src="images/socialicons/linkedin.png" alt="linkedin" title="linkedin" /></a></li>
+					<li><a href="#"><img src="images/socialicons/picasa.png" alt="picasa" title="picasa" /></a></li>
+					<li><a href="#"><img src="images/socialicons/flickr.png" alt="flickr" title="flickr" /></a></li>
+					<li><a href="#"><img src="images/socialicons/mixx.png" alt="mixx" title="mixx" /></a></li>
+					<li><a href="#"><img src="images/socialicons/reddit.png" alt="reddit" title="reddit" /></a></li>
+					<li><a href="#"><img src="images/socialicons/digg.png" alt="digg" title="digg" /></a></li>
+					<li><a href="#"><img src="images/socialicons/delicious.png" alt="delicious" title="delicious" /></a></li>
+					<li><a href="#"><img src="images/socialicons/designfloat.png" alt="designfloat" title="designfloat" /></a></li>
+					<li><a href="#"><img src="images/socialicons/diigo.png" alt="diigo" title="diigo" /></a></li>
+					<li><a href="#"><img src="images/socialicons/dzone.png" alt="dzone" title="dzone" /></a></li>
+					<li><a href="#"><img src="images/socialicons/myspace.png" alt="myspace" title="myspace" /></a></li>
+					<li><a href="#"><img src="images/socialicons/google.png" alt="google" title="google" /></a></li>
+					<li><a href="#"><img src="images/socialicons/gmail.png" alt="gmail" title="gmail" /></a></li>
+					<li><a href="#"><img src="images/socialicons/rss.png" alt="rss" title="rss" /></a></li>-->
+				</ul>
+			</section>
+			
+		</aside>
+
+	<footer>
+		<br />
+		<p>&copy; 2012 <a href="/" title="Gold coast Co-Working">goldcoastcoworking.com</a></p>
+	</footer>
+<!-- Free template created by http://freehtml5templates.com -->
+<script type="text/javascript">
+$(function() {
+
+ 
+    $("div.companies").randomize("div.twtr-tweet-wrap");
+ 
+
+});
+
+(function($) {
+
+$.fn.randomize = function(childElem) {
+
+
+  return this.each(function() {
+      var $this = $(this);
+      var elems = $this.children(childElem);
+
+      elems.sort(function() { return (Math.round(Math.random())-0.5); });  
+
+      $this.remove(childElem);  
+
+      for(var i=0; i < elems.length; i++)
+        $this.append(elems[i]);      
+
+  });    
+}
+})(jQuery);
+</script>
+</body>
+</html>

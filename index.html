@@ -1,135 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Gold coast Co-Working Space</title>
-	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="print.css" media="print" />
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Gold Coast TechSpace Inc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Gold Coast Co-Working initiative has been set up as a hub for Gold Coast IT professionals to work and collaborate.">
+    <meta name="author" content="go|simpler, Matthew Olde, @mattolde">
 
-	<header>
-		<h1>Gold Coast Co-Working</h1>
-	</header>
-	<nav>
-		<ul>
-			<li class="selected"><a href="/">Home</a></li>
-			<li><a href="javascript:alert('Page will include info/address/bank details etc');">Get involved</a></li>
-		</ul>
-	</nav>
-	<section id="intro"></section>
-	<div id="content">
-				<article class="stream">
-					<header><br/>
-						<b>The Gold Coast Co-Working initiative has been set up as a hub for Gold Coast IT professionals to work and collaborate. </b>
-					</header>
-					<header>
-						<h2>Companies involved include:</h2>
-					</header>
-						<br />
-					<div class="companies">
-					
-					<!-- this is a sample search script from twitter.com/goodies . feel free to put your own stream scripts here -->
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
 
-		<div class="twtr-tweet-wrap">
-			<div class="twtr-avatar">				
-					<a href="http://www.classmarker.com/"><img src="http://img.classmarker.com/a/classmarker.gif" height="27" alt="Hosted quiz maker"></a>	
-			</div>
-			<div class="twtr-tweet-text">
-				<p>The Quiz Maker for Professionals<br/>
-					<a href="http://www.classmarker.com/">ClassMarker</a>			</p>
-			</div>
-			<hr/>
-		</div>
-		
-		<div class="twtr-tweet-wrap">
-			<div class="twtr-avatar">
-					<a href="http://refactor.com.au/"><img src="http://refactor.com.au/sites/default/files/logo.png" height="27" alt="Expert software development"></a>	
-			</div>
-			<div class="twtr-tweet-text">
-				<p>Expert software development<br/>
-					<a href="http://refactor.com.au/">Refactor</a>	</p>
-			</div>
-			<hr/>
-		</div>
-		
-		<div class="twtr-tweet-wrap">
-			<div class="twtr-avatar">				
-					<a href="http://glanton.com/"><img src="http://glanton.com/Portals/0/Glanton%20Corporate%20Web%20Services%202_cropped.png" height="27" alt="Corporate web services"></a>
-								
-			</div>
-			<div class="twtr-tweet-text">
-				<p>The Quiz Maker for Professionals<br/>
-					<a href="http://glanton.com/">Glanton</a>	</p>
-			</div>
-		</div>
-		
-		
-					</div>
-				</article>
-				
-		</div>
-		
-		<aside>
-			<section>
-				<ul>
-					<li><a href="http://www.linkedin.com/groups?gid=4580336"><img src="images/socialicons/linkedin.png" alt="linkedin" title="linkedin" /></a></li>
-					<!--<li><a href="#"><img src="images/socialicons/twitter.png" alt="twitter" title="twitter" /></a></li>
-					<li><a href="#"><img src="images/socialicons/facebook.png" alt="facebook" title="facebook" /></a></li>
-					<li><a href="#"><img src="images/socialicons/friendfeed.png" alt="friendfeed" title="friendfeed" /></a></li>
-					<li><a href="#"><img src="images/socialicons/stumbleupon.png" alt="stumbleupon" title="stumbleupon" /></a></li>
-					<li><a href="#"><img src="images/socialicons/linkedin.png" alt="linkedin" title="linkedin" /></a></li>
-					<li><a href="#"><img src="images/socialicons/picasa.png" alt="picasa" title="picasa" /></a></li>
-					<li><a href="#"><img src="images/socialicons/flickr.png" alt="flickr" title="flickr" /></a></li>
-					<li><a href="#"><img src="images/socialicons/mixx.png" alt="mixx" title="mixx" /></a></li>
-					<li><a href="#"><img src="images/socialicons/reddit.png" alt="reddit" title="reddit" /></a></li>
-					<li><a href="#"><img src="images/socialicons/digg.png" alt="digg" title="digg" /></a></li>
-					<li><a href="#"><img src="images/socialicons/delicious.png" alt="delicious" title="delicious" /></a></li>
-					<li><a href="#"><img src="images/socialicons/designfloat.png" alt="designfloat" title="designfloat" /></a></li>
-					<li><a href="#"><img src="images/socialicons/diigo.png" alt="diigo" title="diigo" /></a></li>
-					<li><a href="#"><img src="images/socialicons/dzone.png" alt="dzone" title="dzone" /></a></li>
-					<li><a href="#"><img src="images/socialicons/myspace.png" alt="myspace" title="myspace" /></a></li>
-					<li><a href="#"><img src="images/socialicons/google.png" alt="google" title="google" /></a></li>
-					<li><a href="#"><img src="images/socialicons/gmail.png" alt="gmail" title="gmail" /></a></li>
-					<li><a href="#"><img src="images/socialicons/rss.png" alt="rss" title="rss" /></a></li>-->
-				</ul>
-			</section>
-			
-		</aside>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-	<footer>
-		<br />
-		<p>&copy; 2012 <a href="/" title="Gold coast Co-Working">goldcoastcoworking.com</a></p>
-	</footer>
-<!-- Free template created by http://freehtml5templates.com -->
-<script type="text/javascript">
-$(function() {
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
 
- 
-    $("div.companies").randomize("div.twtr-tweet-wrap");
- 
+  <body>
 
-});
+    <div class="container header">
+      <div class="row">
+        <div class="span8 gc-logo">
+          <img src="assets/img/logo.png" />
+          <h1>Gold Coast Co-working</h1>
+        </div>
 
-(function($) {
+        <div class="span4 partnership">
+          <p>In partnership with</p>
+          <img src="assets/img/company-logos/GCTS.png" />
+        </div>
+      <div> 
+    </div>
 
-$.fn.randomize = function(childElem) {
+    <div class="container">
+
+      <div class="row">
+        <div class="span8">
+          <div class="hero-unit">
+            <h3>What is Gold Coast Co-working</h3>
+            
+            <p>The Gold Coast Co-Working initiative has been set up as a hub for Gold Coast IT professionals to work and collaborate.</p>
+
+            <p>Rather then work from home or coffee shops, come work in a creative and collaborative environment sharing knowledge and experience with a range of friendly individuals including entrepreneurs, designers, programmers, engineers and more.</p>
+
+          </div>
+        </div>
+        <div class="span4">
+          <div class="well">
+            <h2>Location</h3>
+            <p>Shop 4, 19-21 Nind St, Southport</p>
+          </div>
+          <div class="well">
+            <h2>Contact</h3>
+            <p>Trent Williams</p>
+            <p><a href="mailto: contact@goldcoastcoworking.com"> contact@goldcoastcoworking.com</a></p>
+          </div>          
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span12">
+            <div class="hero-unit">
+              <p>Gold Coast Co-working is partnered with the Gold Coast TechSpace. Collectively they are a not-for-profit venture with all membership fees going back into the space.</p>
+
+              <p>Co-working Membership fees are $200.00 p/m. This includes facilities, wifi, desks, chairs in a location surrounded by multiple coffee shop and lunch options. Some members choose to pop in only one or two days a week, others work here permanently - It's up to you!!</p>
+          </div>
+        </div>
+      </div>
 
 
-  return this.each(function() {
-      var $this = $(this);
-      var elems = $this.children(childElem);
+      <h1 class="companies">Companies working at the Space</h1>
 
-      elems.sort(function() { return (Math.round(Math.random())-0.5); });  
+      <!-- companies -->
 
-      $this.remove(childElem);  
+      <div class="row">
+        <div class="span4 company">
 
-      for(var i=0; i < elems.length; i++)
-        $this.append(elems[i]);      
+          <div class="logo classmarker">
+            <img src="assets/img/company-logos/classmarker.png" />
+          </div>
 
-  });    
-}
-})(jQuery);
-</script>
-</body>
+           <p><a class="btn" href="http://www.classmarker.com" target="_blank">View details &raquo;</a></p>
+        </div>
+
+        <div class="span4 company">
+
+          <div class="logo">
+            <img src="assets/img/company-logos/glanton.png" />
+          </div>
+
+            <p><a class="btn" href="http://www.glanton.com" target="_blank">View details &raquo;</a></p>
+        </div>
+
+        <div class="span4 company">
+
+          <div class="logo">
+            <img src="assets/img/company-logos/gosimpler.png" />
+          </div>
+
+           <p><a class="btn" href="http://gosimpler.com" target="_blank">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span4 company">
+
+          <div class="logo">
+            <img src="assets/img/company-logos/pure-minx.png" />
+          </div>
+
+          <p><a class="btn" href="http://www.pureminx.com" target="_blank">View details &raquo;</a></p>
+        </div>
+
+        <div class="span4 company">
+
+          <div class="logo">
+            <img src="assets/img/company-logos/refactor.png" />
+          </div>
+           
+           <p><a class="btn" href="http://www.refactor.com.au" target="_blank">View details &raquo;</a></p>
+        </div>
+
+        <div class="span4 company">
+
+          <div class="logo">
+            <img src="assets/img/company-logos/GCTS.png" />
+          </div>
+           
+           <p><a class="btn" href="http://gctechspace.org/" target="_blank">View details &raquo;</a></p>
+        </div>
+      </div>      
+
+      <hr>
+
+      <footer>
+        <p class="copyright">&copy; Gold Coast TechSpace Inc 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster 
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    -->
+
+  </body>
 </html>

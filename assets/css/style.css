@@ -1,0 +1,59 @@
+.gc-logo img {
+	padding: 20px 0;
+	float:left;
+}
+
+.gc-logo h1 {
+	float:left;
+	margin:50px 0 0 20px;
+}
+
+.partnership p {
+	width: 120px;
+	padding-top: 15px;
+}
+
+.partnership p,
+.partnership img {
+	display: block;
+	margin: 0 auto;
+}
+
+.companies {
+	width: 580px;
+	display: block;
+	margin:20px auto 30px auto;
+}
+
+.company img {
+	padding-bottom: 30px;
+	display: block;
+	margin:10px auto 0 auto;
+}
+
+.company a {
+	display: block;
+	margin:0 auto;
+}
+
+.company > .logo {
+	height: 110px;
+}
+
+.gosimpler {
+	margin-top: 0;
+}
+
+.classmarker img {
+	margin-top:10px;
+}
+
+.classmarker {
+	height: 110px !important;
+}
+
+.copyright {
+	display: block;
+	margin:20px auto;
+	width: 230px;
+}
