@@ -225,6 +225,7 @@ a:hover {
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
+  margin-top: 10px;
 }
 
 .span12 {
@@ -5743,9 +5744,9 @@ a.badge:hover {
 }
 
 .hero-unit p {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 25px;
   color: inherit;
 }
 

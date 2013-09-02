@@ -4,12 +4,13 @@
 }
 
 .gc-logo h1 {
-	float:left;
-	margin:50px 0 0 20px;
+	margin:30px 0 20px 0;
 }
-
+.gc-logo h1+h1{
+	margin:-10px 0 20px 0;
+}
 .info {
-	padding:30px;
+	padding:20px 30px;
 }
 
 .info  p {
@@ -25,11 +26,12 @@
 	display: block;
 	margin: 0 auto;
 }
-
+.spacer {height:25px;clear:both;}
 .companies {
-	width: 580px;
+	width: 780px;
 	display: block;
 	margin:20px auto 30px auto;
+	text-align: center;
 }
 
 .company img {
@@ -62,5 +64,5 @@
 .copyright {
 	display: block;
 	margin:20px auto;
-	width: 230px;
+	width: 430px;
 }
